@@ -125,6 +125,7 @@ export default class CreateJob extends React.Component {
     render() {
         return (
             <BodyWrapper reload={this.init} loaderData={this.state.loaderData}>
+                <h1>Hello World</h1>
                 <section className="page-body">
                     <div className="ui container">
                         <div className="ui grid">
